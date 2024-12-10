@@ -25,15 +25,15 @@
 •	Advertising on GitHub \
 •	User Protection
 5.	Merge conflicts can occur while using git. List merge tools or diff tools you can use to help you merge and deal with conflicts. \
-•	Simultaneous Edits: Two developers modify the same line of code in different branches. \
-•	Conflicting Changes: A file is deleted in one branch and modified in another. \
-•	Complex Merges: When multiple branches are being merged, with changes scattered across various files and lines.
+•	Beyond Compare: It's a cross-platform propietary data comparison utility that can compare files and multiple types of directories. \
+•	P4Merge: It's a diff and merge tool that's used for visualizing differences between files, branches, and repositories. \
+•	Git log command: It helps making lists of commits that's causing the conflict.
 6.	In a merged source code file, how does Git let you know there is a conflict? \
-•	Viewing a list of the files with conflicting changes above the Merge pull request button. 
+•	The Status Command: Produces a log with a list of commits that conflict between the merging branches when you pass the merge argument to the git log command. 
 7.	What are the steps you can take to resolve Git conflicts? \
-•	Under your repository name, click Pull requests. \
-•	In the "Pull Requests" list, click the pull request with a merge conflict that you'd like to resolve. \
-•	Near the bottom of your pull request, click Resolve conflicts. 
+•	Step 1: Open the conflicted file and make any necessary changes. \
+•	Step 2: Use the git add command to stage the new merged content. \
+•	Step 3: Create a new commit with the help of the git commit command.
 8.	What does git revert do, and how can you use it? \
 •	A forward-moving undo operation that offers a safer method to undo changes. \
 •	It’s used for undoing changes to a repository's commit history.
@@ -41,8 +41,8 @@
 •	It moves both the HEAD and branch refs to the specified commit. \
 •	It’s used to undo changes in the working directory and get back to a specific commit while discarding all the commits made after that one.
 10.	What is the difference between git revert and git reset? \
-•	Git revert: it’s used as a tool for undoing committed changes. \
-•	Git reset: is for undoing uncommitted changes.
+•	Git revert: It’s used for undoing changes that have been committed. \
+•	Git reset: Is for undoing changes that haven't been committed yet.
 11.	True or False: It is okay to commit broken code to the main branch. \
 •	False: You should never commit code that doesn't pass tests.
 12.	True or False: You should commit related changes. For example, fixing two different bugs should produce two separate commits. \

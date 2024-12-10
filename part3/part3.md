@@ -1,7 +1,7 @@
 Imagine you are working at a game studio, and they want you to help with installing Git. 
-1.	Write instructions on installing git on a windows system. Making sure to include \
-How to install git. \
-Downloading.
+1.	Write instructions on installing git on a windows system. Making sure to include
+a.	What are the requirements to install Git on a system. 
+•	
 Step 1: You should download the Git Installer by visiting the official Git website: https://git-scm.com/downloads. \
 Step 2: Click on 64-bit Git for Windows Setup to download it. \
 Step 3: Then go to the download location and double-click the file to launch it. \
@@ -22,9 +22,6 @@ Step 17: Leave the options as default and click nex. \
 Step 18: Click install. \
 Step 19: Launch the Git bash.
 
-
-a.	What are the requirements to install Git on a system. \
-•	Using a command line requires a working Winget installation, internet connection for the program to download the files, and access to the Command Prompt or PowerShell.
 b.	If you had issues installing Git the workplace, give instructions on who you could you enquire about the installation disruption. \
 •	Contact IT \
 •	Check documents \
